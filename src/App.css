@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+#board {
+    width: 350px;
+    height: 420px;
+    /*background-color: green;*/
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.word-guess {
+  display: flex;
+  justify-content: center;
+}
