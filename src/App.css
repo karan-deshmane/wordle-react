@@ -13,15 +13,67 @@
   margin: 0 auto;
 }
 
-#board {
-    width: 350px;
-    height: 420px;
-    /*background-color: green;*/
-    margin: 0 auto;
-    margin-top: 3px;
-    display: flex;
-    flex-wrap: wrap;
+.board-container.easy {
+  width: 276px;
 }
+.board-container.medium {
+  width: 345px;
+}
+.board-container.hard {
+  width: 414px;
+}
+
+#board {
+  margin: 0 auto;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.difficulty-button {
+  margin: 15px;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 32px;
+  font-size: 25px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn-easy {
+  color: #6AAA64;
+}
+
+.btn-easy:hover {
+  background-color: #6AAA64;
+  color: #000000;
+  border: 2px solid black;
+}
+
+.btn-medium {
+  color: #C9B458;
+}
+
+.btn-medium:hover {
+  background-color: #C9B458;
+  color: #000000;
+  border: 2px solid black;
+}
+
+.btn-hard {
+  color: #B83737;
+}
+
+.btn-hard:hover {
+  background-color: #B83737;
+  color: #000000;
+  border: 2px solid black;
+}
+
 
 .title {
   color: black;
