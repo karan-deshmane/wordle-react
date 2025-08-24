@@ -55,7 +55,7 @@ If there are any problems:
 ## Authors
 
 Karan Deshmmane
-[@karandeshmane](https://www.linkedin.com/in/karandeshmane/)
+[karandeshmane](https://www.linkedin.com/in/karandeshmane/)
 
 
 ## Version History
