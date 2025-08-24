@@ -52,10 +52,9 @@ If there are any problems:
 * Make sure Node.js and npm are installed correctly (node -v and npm -v to check).
 * Check the official docs for React and Vite
 
-## Authors
+## Author
 
-Karan Deshmmane
-[karandeshmane](https://www.linkedin.com/in/karandeshmane/)
+[KaranDeshmane](https://www.linkedin.com/in/karandeshmane/)
 
 
 ## Version History
