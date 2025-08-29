@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import "animate.css";
+import "animate.css/animate.min.css";
 import { easyWordList, mediumWordList, hardWordList } from "./assets/wordList";
 import { easyGuessList, mediumGuessList, hardGuessList } from "./assets/guessList";
 
